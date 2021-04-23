@@ -1,0 +1,14 @@
+.q5-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: gray;
+}
+
+.q5-wrapper .q5-block{
+    width: 30%;
+}
+
+.q5-wrapper .q5-block:nth-child(odd){
+    background-color: #00FF00;
+}
